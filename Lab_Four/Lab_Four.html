@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Mabano_Lab_Four</title>
+	</head>
+	<body>
+		<div
+			id="form-table"
+			class="static bg-amber-300 border-sky-300 w-80 border-2 rounded-md">
+			<form action="">
+				<div></div>
+				<div>
+					<!-- name -->
+					<input
+						type="text"
+						placeholder="Name"
+						class="font-semibold border border-sky-300 py-1 px-2 rounded-md" />
+					<br />
+				</div>
+				<div>
+					<!-- year -->
+					<span class="font-semibold">Year:</span>
+					<label>
+						<input
+							type="radio"
+							name="year"
+							value="1st" />
+						1st
+					</label>
+					<label>
+						<input
+							type="radio"
+							name="year"
+							value="2nd" />
+						2nd
+					</label>
+					<label>
+						<input
+							type="radio"
+							name="year"
+							value="3rd" />
+						3rd
+					</label>
+					<label>
+						<input
+							type="radio"
+							name="year"
+							value="4th" />
+						4th
+					</label>
+					<br />
+				</div>
+				<div>
+					<!-- course -->
+					<span class="font-semibold">Course:</span>
+					<label>
+						<input
+							type="radio"
+							name="course"
+							value="cs" />
+						CS
+					</label>
+					<label>
+						<input
+							type="radio"
+							name="course"
+							value="ds" />
+						DS
+					</label>
+					<label>
+						<input
+							type="radio"
+							name="course"
+							value="it" />
+						IT
+					</label>
+					<label>
+						<input
+							type="radio"
+							name="course"
+							value="is" />
+						IS
+					</label>
+					<br />
+				</div>
+				<div>
+					<!-- gender -->
+					<span class="font-semibold">Gender:</span>
+					<label>
+						<input
+							type="radio"
+							name="gender"
+							value="male" />
+						Male
+					</label>
+					<label>
+						<input
+							type="radio"
+							name="gender"
+							value="female" />
+						Female
+					</label>
+					<br />
+				</div>
+				<div>
+					<!-- final grade -->
+					<input
+						type="number"
+						placeholder="Final Grade"
+						class="font-semibold border border-sky-300 py-1 px-2 rounded-md" />
+					<br />
+				</div>
+				<div class="py-2 content-center">
+					<button class="w-40 bg-sky-400 py-3 text-center text-white">
+						Submit
+					</button>
+					<br />
+				</div>
+			</form>
+		</div>
+		<div id="data-table">
+			<div>
+				<label for="search-query">Search</label>
+				<input type="text" />
+				<br />
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Year</th>
+						<th>Course</th>
+						<th>Gender</th>
+						<th>Final Grade</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>nametest</td>
+						<td>yeartest</td>
+						<td>coursetest</td>
+						<td>gendertest</td>
+						<td>finalgradetest</td>
+						<td>
+							<input
+								type="button"
+								value="Delete"
+								onclick="" />
+						</td>
+					</tr>
+					<tr>
+						<td>Average Grade</td>
+						<td>testgrade</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
